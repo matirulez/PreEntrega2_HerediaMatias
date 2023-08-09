@@ -1,0 +1,97 @@
+/* Grid */
+.wrapper {
+    grid-template-columns: 1fr;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    grid-column: 1;
+}
+
+.item1 {
+    grid-row:1;
+}
+
+.item2 {
+    grid-row:2;
+    }
+
+.item3 {
+    grid-row:3;
+}
+
+.item4 {
+    grid-row:4;
+}
+
+.item5 {
+    grid-row:5;
+    
+}
+
+.item6 {
+    grid-row:6;    
+}
+
+/* About */
+
+#about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about p {
+    width: 100%;
+}
+
+#about h2 {
+    padding-bottom: 20px;
+}
+
+/* Woks */
+
+#work {
+    padding-top: 40px 0;
+}
+
+.work-row {
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.work-row p {
+    width: 100%;
+}
+
+.work-row img {
+    width: 100%;
+}
+
+/* Projects */
+
+.portfolio {
+    padding: 40px 0;
+}
+
+.portfolio p {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+/* Contact */
+
+#contact {
+    padding: 40px 0;
+}
+
+#contact form {
+    width: 100%;
+}
