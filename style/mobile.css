@@ -27,9 +27,8 @@ body h1 {
 .about h2 {
     padding-bottom: 20px;
 }
-
-.about img {
-    text-align: center;
+.img-fluid {
+    align-items: center;
 }
 
 /* Woks */
