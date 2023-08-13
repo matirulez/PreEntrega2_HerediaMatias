@@ -1,3 +1,8 @@
+/* Index */
+
+body h1 {
+    font-size: 22px;
+}
 /* Grid mobile */
 .gallery-container {
     display: flex;
@@ -10,17 +15,21 @@
 
 /* About */
 
-#about {
+.about {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-#about p {
+.about p {
     width: 100%;
 }
 
-#about h2 {
+.about h2 {
     padding-bottom: 20px;
+}
+
+.about img {
+    text-align: center;
 }
 
 /* Woks */
