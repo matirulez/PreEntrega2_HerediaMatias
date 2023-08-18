@@ -37,6 +37,7 @@ body h1 {
     padding: 10px;
 }
 
+
 /* Index Grid and BEM*/
 
 .gallery-container {
@@ -44,7 +45,8 @@ body h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
     padding: 40px;
-    grid-gap: 30px;
+    grid-gap: 10px;
+    margin-top: 30px;
 }
 
 .gallery__item {
@@ -59,14 +61,6 @@ body h1 {
 
 }
 
-.gallery__tittle {
-    position: absolute;
-    bottom: 0;
-    color:black;
-    margin: 0;
-    width: 100%;
-    padding: 10px;    
-}
 
 .gallery__item:nth-child(4) {
     grid-column-start:span 2;
@@ -83,13 +77,14 @@ body h1 {
 
 /* About whit Bt s2*/
 
-.about {
+.about_one {
     text-align: center;
     line-height: 2em;
     padding: 25px auto;
 }
 
 .tittle_one {
+    margin-top: 40px;
     padding: 30px;
 }
 
@@ -99,6 +94,10 @@ body h1 {
 }
 
 /* Works */
+
+.about{
+    margin-top: 60px;
+}
 
 #work {
     padding-top: 60px;
