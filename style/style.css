@@ -12,9 +12,7 @@ body {
     font-family: "Segoe UI";
     font-weight: 400;
     width: 100%;
-    min-height: 100vh;
-    background: url(../img/bg2.jpg);
-    background-size: 100%;
+    background: url(../img/BG1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,11 +36,10 @@ body h1 {
     padding: 10px;
 }
 
-
+¿
 /* NavBar */
 
 .navbar {
-    background: url(../img/bg2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +102,8 @@ body h1 {
 
 .img-fluid {
     border-radius: 15px;
-    width: 75%;
+    width: 50%;
+    height: 60%;
 }
 
 /* Works */
@@ -217,13 +215,13 @@ form .form-control {
 .mainfooter .social {
     text-align: center;
     padding-bottom: 20px;
-    color: #363a33;
+    color: #fff;;
 }
 
 .mainfooter .social a {
     font-size: 20px;
     color: inherit;
-    border: 1px solid #363a33;
+    border: 1px solid #fff;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -249,7 +247,7 @@ form .form-control {
 }
 
 .mainfooter ul li a {
-    color: #363a33;
+    color: #fff;
     text-decoration: none;
     opacity: 0.8;
 }
@@ -267,5 +265,5 @@ form .form-control {
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
-    color:#363a33;
+    color:#fff;
 }
